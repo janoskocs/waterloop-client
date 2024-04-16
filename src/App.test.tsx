@@ -6,7 +6,7 @@ describe('App', () => {
   it('should render hello world', () => {
     // Arrange
     render(<App />);
-    const heading = 'Hello world!';
+    const heading:string = 'Waterloop World';
     // Act
     // Expect
     expect(
